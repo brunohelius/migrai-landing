@@ -2,21 +2,104 @@
 <html lang="pt-BR" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=3" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=3" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=3" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=3" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="MigrAI - IA para todo o ciclo de desenvolvimento de software. Acelere cada fase do SDLC com agentes IA autonomos — do requisito ao deploy." />
-    <meta name="keywords" content="SDLC, desenvolvimento de software, agentes IA, deploy automatico, planejamento inteligente, testes automatizados, CI/CD, IA generativa" />
-    <meta name="theme-color" content="#2563eb" />
+    <meta name="description" content="MigrAI orquestra times de agentes de IA sob um harness de entrega: nenhuma mudanca e dada como pronta sem evidencia de build, teste e revisao. Modernizacao de sistemas legados (COBOL, VB6, Delphi) em software equivalente comprovado. SaaS, desktop e on-prem." />
+    <meta name="keywords" content="agentes de IA, engenharia de software, modernizacao de legado, migracao COBOL, delivery harness, MoA, MoE, sandbox seguro, LGPD, on-premise, open-weight, frontier, desenvolvimento autonomo" />
+    <meta name="theme-color" content="#0b5fff" />
+    <link rel="canonical" href="https://migrai.com.br/" />
+
+    <!-- hreflang: 5 languages served from the same SPA URL -->
+    <link rel="alternate" hreflang="pt-BR" href="https://migrai.com.br/" />
+    <link rel="alternate" hreflang="en" href="https://migrai.com.br/" />
+    <link rel="alternate" hreflang="es" href="https://migrai.com.br/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://migrai.com.br/" />
+    <link rel="alternate" hreflang="ko-KR" href="https://migrai.com.br/" />
+    <link rel="alternate" hreflang="x-default" href="https://migrai.com.br/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://migrai.com.br/" />
+    <meta property="og:title" content="MigrAI: agentes que entregam software. Com prova." />
+    <meta property="og:description" content="Times de agentes de IA sob um harness de entrega que exige evidencia de build, teste e revisao. Modernizacao de legado com paridade comprovada. SaaS, desktop e on-prem." />
+    <meta property="og:image" content="https://migrai.com.br/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:site_name" content="MigrAI" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://migrai.com.br/" />
+    <meta name="twitter:title" content="MigrAI: agentes que entregam software. Com prova." />
+    <meta name="twitter:description" content="Times de agentes de IA sob um harness de entrega que exige evidencia de build, teste e revisao. Modernizacao de legado com paridade comprovada." />
+    <meta name="twitter:image" content="https://migrai.com.br/og-image.png" />
+
+    <!-- JSON-LD: Organization + SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://migrai.com.br/#organization",
+          "name": "MigrAI",
+          "legalName": "MIGRAI TECNOLOGIA DA INFORMACAO LTDA",
+          "url": "https://migrai.com.br/",
+          "logo": "https://migrai.com.br/og-image.png",
+          "email": "contato@migrai.com.br",
+          "taxID": "63.188.960/0001-47",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "R. Pais Leme, 215, Conj 1713, Pinheiros",
+            "addressLocality": "Sao Paulo",
+            "addressRegion": "SP",
+            "postalCode": "05424-150",
+            "addressCountry": "BR"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "MigrAI",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "Web, macOS, Windows, Linux",
+          "url": "https://migrai.com.br/",
+          "description": "Plataforma de agentes de IA que moderniza sistemas legados em software equivalente comprovado, com um harness de entrega que exige evidencia de build, teste e revisao.",
+          "publisher": { "@id": "https://migrai.com.br/#organization" },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Free",
+              "price": "0",
+              "priceCurrency": "BRL"
+            },
+            {
+              "@type": "Offer",
+              "name": "Pro",
+              "price": "99",
+              "priceCurrency": "BRL"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <title>MigrAI - IA para Todo o Ciclo de Desenvolvimento</title>
-    <script type="module" crossorigin src="/assets/index-BuKkqPs3.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BrRQWPFH.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <title>MigrAI: agentes que entregam software. Com prova.</title>
+    <script type="module" crossorigin src="/assets/index-BbwidNwN.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DzTrsT1K.css">
   </head>
   <body>
     <div id="root"></div>

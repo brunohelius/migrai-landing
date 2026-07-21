@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://migrai.com.br/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://migrai.com.br/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://migrai.com.br/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://migrai.com.br/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://migrai.com.br/" />
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://migrai.com.br/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://migrai.com.br/" />
+  </url>
+  <url>
+    <loc>https://migrai.com.br/architecture</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://migrai.com.br/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://migrai.com.br/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>

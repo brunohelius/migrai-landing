@@ -1,0 +1,32 @@
+# MigrAI — https://migrai.com.br
+# Open to search and AI crawlers for discoverability (GEO / AI search).
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome major AI crawlers.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+Sitemap: https://migrai.com.br/sitemap.xml

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MigrAI symbol">
+  <!-- Single-color mark (currentColor). M and chevron separated by a clean gap
+       so the two shapes stay legible when rendered in one flat color. -->
+  <path fill="currentColor" fill-rule="evenodd"
+        d="M40 120
+           H132
+           L226 262
+           L320 120
+           H360
+           V392
+           H320
+           V244
+           L226 386
+           L132 244
+           V392
+           H40
+           Z
+           M384 120
+           H452
+           L500 256
+           L452 392
+           H384
+           L432 256
+           Z"/>
+</svg>
